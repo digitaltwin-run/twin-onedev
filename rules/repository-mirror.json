@@ -1,0 +1,11 @@
+{
+  "schema": "subactor.digital-twin-rule/v1",
+  "id": "twin-onedev-repository-mirror",
+  "version": 1,
+  "kind": "git_mirror_rule",
+  "target": "onedev_git_server",
+  "rule": {
+    "name": "repository_mirror_sync",
+    "description": "Enforces read-only git mirror sync for platform component repositories"
+  }
+}
